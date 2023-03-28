@@ -6,6 +6,7 @@ import LynnEstiloDeAprendizaje  from "./pages/LynnEstiloDeAprendizaje";
 import Default  from "./pages/Default";
 import Dashboard  from "./pages/Dashboard";
 import Login from './pages/Login';
+import Politicadeprivacidad from './pages/Politicadeprivacidad';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
            <Route path="/" element={<Home />} />
            <Route path="dashboard" element={<Dashboard />} />
            <Route path="lynnEstiloDeAprendizaje" element={<LynnEstiloDeAprendizaje />} />
+           <Route path="Politicadeprivacidad" element={<Politicadeprivacidad />} />
            <Route path="*" element={<Default />} />
         </Route>
       </Routes>
