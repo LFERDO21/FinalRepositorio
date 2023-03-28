@@ -1,4 +1,6 @@
+
 const LynnEstiloDeAprendizaje = () =>{
+
     return (
         <div>
             <div class="circulos">
@@ -48,7 +50,7 @@ const LynnEstiloDeAprendizaje = () =>{
 
         </div>
         
-    )
+    );
 }
 
 export default LynnEstiloDeAprendizaje;
